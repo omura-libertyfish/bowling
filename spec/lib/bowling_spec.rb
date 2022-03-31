@@ -1,5 +1,6 @@
 describe "ボウリングのスコア計算" do
     # インスタンスの生成を共通化
+    require "bowling"
     before do
       @game = Bowling.new
     end
